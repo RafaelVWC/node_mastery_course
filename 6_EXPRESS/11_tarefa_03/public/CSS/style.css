@@ -1,0 +1,15 @@
+body{
+    background-color: gray;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+    font-size: 30px;
+}
+
+.button{
+    color: white;
+    background-color: yellowgreen;
+    display: inline-block;
+    font-size: 40px;
+}
+

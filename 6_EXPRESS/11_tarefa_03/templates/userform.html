@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar usuário</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <h1>Add a user</h1>
+    <form action="/users/save" method="POST">
+        <div>
+            <input type="text" name="name" placeholder="Type your name">
+        </div>
+        <div>
+            <input type="text" name="age" placeholder="Type your age">
+        </div>
+        <div>
+            <input type="submit" value="Submit" onclick="alert('Values registered')">
+        </div>
+        <div>
+            <a href="/">Go back!</a>
+        </div>
+    </form>
+</body>
+</html>
